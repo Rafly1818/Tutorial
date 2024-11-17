@@ -1,12 +1,13 @@
 # Instalasi WSL di Windows 10 dan Windows 11
 1. Buka **Settings** (Pengaturan).
-2. Pilih **Apps**.
+2. Pilih **System**.
 3. Pilih **Optional features** (Fitur opsional).
 4. Scroll ke bawah dan pilih **More Windows features** (Fitur Windows lainnya).
-5. Centang **Windows Subsystem for Linux** dan klik **OK**.
-6. Restart komputer Anda jika diminta.
-7. Buka **Microsoft Store** dan cari distribusi Linux yang diinginkan (misalnya, Ubuntu) dan klik **Install**.
-8. Buka **Microsoft Store** dan cari Terminal dan klik **Install**.
+5. Centang **Virtual Machine Platform**.
+6. Centang **Windows Subsystem for Linux** dan klik **OK**.
+7. Restart komputer Anda jika diminta.
+8. Buka **Microsoft Store** dan cari distribusi Linux yang diinginkan (misalnya, Ubuntu) dan klik **Install**.
+9. Buka **Microsoft Store** dan cari Terminal dan klik **Install**.
 
 ## Mengatur WSL & Ubuntu
 
