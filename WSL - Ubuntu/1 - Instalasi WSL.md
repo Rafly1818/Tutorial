@@ -11,7 +11,7 @@
 ## Mengatur WSL & Ubuntu
 
 1. Buka **PowerShell** sebagai Administrator.
-2. Jalankan perintah berikut untuk mengatur versi WSL default ke WSL2:
+2. Jalankan perintah berikut untuk mengatur versi WSL default ke WSL2 :
    ```sh
    wsl --set-default-version 2
    ```

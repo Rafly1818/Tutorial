@@ -4,14 +4,14 @@
     - Buka terminal WSL Ubuntu dari Start Menu atau dengan mengetik `wsl` di Terminal atau PowerShell.
 
 2. **Periksa Kunci SSH yang Ada**
-    - Jalankan perintah berikut untuk memeriksa apakah Anda sudah memiliki kunci SSH:
+    - Jalankan perintah berikut untuk memeriksa apakah Anda sudah memiliki kunci SSH :
       ```sh
       ls -al ~/.ssh
       ```
     - Jika Anda melihat file `id_rsa` dan `id_rsa.pub`, Anda sudah memiliki kunci SSH. Jika tidak, lanjutkan ke langkah berikutnya untuk membuat kunci SSH baru.
 
 3. **Membuat Kunci SSH Baru**
-    - Jalankan perintah berikut untuk membuat kunci SSH baru:
+    - Jalankan perintah berikut untuk membuat kunci SSH baru :
       ```sh
       ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
       ```
@@ -20,7 +20,7 @@
     - Ketika diminta untuk "Enter passphrase", tekan `Enter` jika Anda tidak ingin menggunakan passphrase.
 
 4. **Menambahkan Kunci SSH ke Agen SSH**
-    - Jalankan perintah berikut untuk memulai agen SSH:
+    - Jalankan perintah berikut untuk memulai agen SSH :
       ```sh
       eval "$(ssh-agent -s)"
       ```
@@ -30,7 +30,7 @@
       ```
 
 5. **Menyalin Kunci SSH ke Clipboard**
-    - Jalankan perintah berikut untuk menyalin kunci SSH ke clipboard:
+    - Jalankan perintah berikut untuk menyalin kunci SSH ke clipboard :
       ```sh
       cat ~/.ssh/id_rsa.pub
       ```
@@ -46,7 +46,7 @@
     - Klik tombol **Add SSH **key.
 
 7. **Mengkonfirmasi Koneksi SSH ke GitHub**
-    - Jalankan perintah berikut untuk mengkonfirmasi bahwa Anda dapat terhubung ke GitHub menggunakan SSH:
+    - Jalankan perintah berikut untuk mengkonfirmasi bahwa Anda dapat terhubung ke GitHub menggunakan SSH :
       ```sh
       ssh -T git@github.com
       ```

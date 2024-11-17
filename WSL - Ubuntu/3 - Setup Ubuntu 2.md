@@ -27,11 +27,11 @@
       ```sh
       nano ~/.zshrc
       ```
-    - Lalu cari:
+    - Lalu cari :
       ```sh
       plugins=(git)
       ```
-    - Kemudian ganti dengan:
+    - Kemudian ganti dengan :
       ```sh
       plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
       ```
