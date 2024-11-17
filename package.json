@@ -1,10 +1,16 @@
 {
-  "name": "rahasia-umum",
+  "name": "@teamanubot/rahasia-umum",
   "version": "1.0.0",
   "description": "Pada Repositories kali ini hanya akan ada markdown yang berisikan tutorial untuk Github, menginstall dan mengatur berbagai konfigurasi serta dokumentasi terkait penggunaan GitHub.",
   "keywords": [
     "tutorial"
   ],
   "author": "teamanubot",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "main": "",
+  "scripts": {}
 }
