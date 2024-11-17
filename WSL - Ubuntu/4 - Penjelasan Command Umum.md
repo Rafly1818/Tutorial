@@ -147,7 +147,7 @@
 
 12. **`vim` (Text Editor)**
     - Digunakan untuk membuka dan mengedit file teks di terminal dengan editor teks `vim`.
-    - Contoh:
+    - Contoh :
       ```sh
       vim namafile
       ```
@@ -287,7 +287,7 @@
 
 ## Shortcut Keyboard di `vim`
 
-`vim` adalah editor teks yang kuat dan serbaguna yang digunakan di terminal. Berikut adalah beberapa shortcut keyboard yang umum digunakan di `vim`:
+`vim` adalah editor teks yang kuat dan serbaguna yang digunakan di terminal. Berikut adalah beberapa shortcut keyboard yang umum digunakan di `vim` :
 
 ### Mode di `vim`
 
