@@ -48,7 +48,7 @@
       ```
 
 6. **Buat Commit**
-    - Buat commit dengan pesan deskriptif:
+    - Buat commit dengan pesan deskriptif :
       ```sh
       git commit -m "first commit"
       ```
