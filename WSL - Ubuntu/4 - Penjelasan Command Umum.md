@@ -52,10 +52,9 @@
       ```sh
       ls
       ```
-
       atau
       ```sh
-      ls namafolder
+      ls namaFolder
       ```
       Menampilkan daftar file dan direktori.
 
@@ -64,6 +63,10 @@
     - Contoh :
       ```sh
       la
+      ```
+      atau
+      ```sh
+      la namaFolder
       ```
       Menampilkan semua file dan direktori, termasuk file tersembunyi.
 
