@@ -184,10 +184,10 @@
       Tekan `Ctrl + D` untuk logout atau menutup terminal.
 
 ## Menggabungkan atau menggunakan Command lebih dari satu
-- Anda juga dapat menggunakan beberpa command dengan satu perintah.
+- Anda juga dapat menggunakan beberapa command sekaligus dengan `&&`.
 - Contoh :
   ```sh
-  cd namafolder ls
+  cd namafolder && ls
   ```
   Berpindah ke direktori `namafolder` dan menampilkan daftar file dan direktori di dalamnya.
 
