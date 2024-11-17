@@ -145,7 +145,15 @@
       ```
       Membuka `namafile` di editor teks `nano`.
 
-12. **`touch` (Create Empty File)**
+12. **`vim` (Text Editor)**
+    - Digunakan untuk membuka dan mengedit file teks di terminal dengan editor teks `vim`.
+    - Contoh:
+      ```sh
+      vim namafile
+      ```
+      Membuka `namafile` di editor teks `vim`.
+
+13. **`touch` (Create Empty File)**
     - Digunakan untuk membuat file kosong baru atau memperbarui timestamp file yang sudah ada.
     - Contoh :
       ```sh
@@ -276,3 +284,83 @@
     - Digunakan untuk membatalkan tindakan terakhir.
     - Contoh :
       Tekan `Ctrl + Shift + -` untuk membatalkan tindakan terakhir.
+
+## Shortcut Keyboard di `vim`
+
+`vim` adalah editor teks yang kuat dan serbaguna yang digunakan di terminal. Berikut adalah beberapa shortcut keyboard yang umum digunakan di `vim`:
+
+### Mode di `vim`
+
+1. **Normal Mode**
+    - Mode default saat Anda membuka `vim`. Digunakan untuk navigasi dan manipulasi teks.
+    - Untuk masuk ke Normal Mode dari mode lain, tekan `Esc`.
+
+2. **Insert Mode**
+    - Mode untuk memasukkan teks.
+    - Untuk masuk ke Insert Mode dari Normal Mode, tekan `i`.
+
+3. **Visual Mode**
+    - Mode untuk memilih teks.
+    - Untuk masuk ke Visual Mode dari Normal Mode, tekan `v`.
+
+4. **Command Mode**
+    - Mode untuk menjalankan perintah.
+    - Untuk masuk ke Command Mode dari Normal Mode, tekan `:`.
+
+### Shortcut di Normal Mode
+
+1. **Navigasi**
+    - `h` : Pindah satu karakter ke kiri.
+    - `j` : Pindah satu baris ke bawah.
+    - `k` : Pindah satu baris ke atas.
+    - `l` : Pindah satu karakter ke kanan.
+    - `w` : Pindah ke awal kata berikutnya.
+    - `b` : Pindah ke awal kata sebelumnya.
+    - `0` : Pindah ke awal baris.
+    - `$` : Pindah ke akhir baris.
+    - `gg` : Pindah ke awal file.
+    - `G` : Pindah ke akhir file.
+
+2. **Manipulasi Teks**
+    - `x` : Menghapus karakter di bawah kursor.
+    - `dd` : Menghapus baris saat ini.
+    - `yy` : Menyalin baris saat ini.
+    - `p` : Menempelkan teks yang telah disalin atau dipotong setelah kursor.
+    - `u` : Membatalkan tindakan terakhir (undo).
+    - `Ctrl + r` : Mengulangi tindakan yang dibatalkan (redo).
+
+3. **Masuk ke Insert Mode**
+    - `i` : Masuk ke Insert Mode sebelum kursor.
+    - `I` : Masuk ke Insert Mode di awal baris.
+    - `a` : Masuk ke Insert Mode setelah kursor.
+    - `A` : Masuk ke Insert Mode di akhir baris.
+    - `o` : Membuat baris baru di bawah baris saat ini dan masuk ke Insert Mode.
+    - `O` : Membuat baris baru di atas baris saat ini dan masuk ke Insert Mode.
+
+4. **Visual Mode**
+    - `v` : Masuk ke Visual Mode untuk memilih teks karakter demi karakter.
+    - `V` : Masuk ke Visual Line Mode untuk memilih teks baris demi baris.
+    - `Ctrl + v` : Masuk ke Visual Block Mode untuk memilih teks dalam blok.
+
+### Shortcut di Insert Mode
+
+1. **Navigasi**
+    - `Esc` : Kembali ke Normal Mode.
+
+### Shortcut di Visual Mode
+
+1. **Manipulasi Teks**
+    - `d` : Menghapus teks yang dipilih.
+    - `y` : Menyalin teks yang dipilih.
+    - `p` : Menempelkan teks yang telah disalin atau dipotong setelah kursor.
+
+### Shortcut di Command Mode
+
+1. **Perintah Umum**
+    - `:w` : Menyimpan file.
+    - `:q` : Keluar dari `vim`.
+    - `:wq` : Menyimpan file dan keluar dari `vim`.
+    - `:q!` : Keluar dari `vim` tanpa menyimpan perubahan.
+    - `:e filename` : Membuka file `filename`.
+    - `:set number` : Menampilkan nomor baris.
+    - `:set nonumber` : Menyembunyikan nomor baris.
