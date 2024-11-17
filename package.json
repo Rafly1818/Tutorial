@@ -1,0 +1,10 @@
+{
+  "name": "rahasia-umum",
+  "version": "1.0.1",
+  "description": "Pada Repositories kali ini hanya akan ada markdown yang berisikan tutorial untuk Github, menginstall dan mengatur berbagai konfigurasi serta dokumentasi terkait penggunaan GitHub.",
+  "keywords": [
+    "tutorial"
+  ],
+  "author": "teamanubot",
+  "license": "ISC"
+}
