@@ -1,0 +1,21 @@
+{
+  "name": "@teamanubot/rahasia-umum",
+  "version": "1.0.0",
+  "description": "Package dengan build yang berisi direktori ZIP",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:linux || npm run build:mac || npm run build:windows",
+    "build:linux": "node check-installation.js && mkdir -p 'Rahasia Umum' && cp -r ./* 'Rahasia Umum/' && zip -r 'Rahasia Umum.zip' 'Rahasia Umum' -x '*.git/*' -x '*.npmrc' -x 'package.json'",
+    "build:windows": "mkdir 'Rahasia Umum' && xcopy /e /i . 'Rahasia Umum\\' && powershell Compress-Archive -Path 'Rahasia Umum\\*' -DestinationPath 'Rahasia Umum.zip'",
+    "build:mac": "node check-installation.js && mkdir -p 'Rahasia Umum' && cp -r ./* 'Rahasia Umum/' && zip -r 'Rahasia Umum.zip' 'Rahasia Umum' -x '*.git/*' -x '*.npmrc' -x 'package.json'"
+  },
+  "files": [
+    "Rahasia Umum.zip"
+  ],
+  "keywords": [],
+  "author": "Teamanubot",
+  "license": "MIT",
+  "dependencies": {
+    "@teamanubot/rahasia-umum": "^1.0.0"
+  }
+}
