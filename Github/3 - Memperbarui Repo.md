@@ -1,4 +1,4 @@
-# Langkah-langkah Memperbarui Repository di WSL
+# Langkah-langkah Memperbarui Repository di WSL Ubuntu
 
 1. **Tambahkan File ke Staging Area**
     - Jalankan perintah berikut untuk menambahkan semua perubahan yang ada ke staging area :
